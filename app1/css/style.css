@@ -1,0 +1,15 @@
+body {
+	font-family: Arial;
+	font-size: 14px;
+}
+
+.monotype {
+	font-family: monotype;
+}
+
+.header {
+	text-transform: capitalize;
+	font-size: larger;
+	font-weight: bold;
+	padding: 5px 10px;
+}
