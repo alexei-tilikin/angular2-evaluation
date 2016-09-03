@@ -1,0 +1,11 @@
+<p>
+    <label>HTML content to compile</label>
+    <br/>
+    <textarea type="text" [(ngModel)]="dynamicHTMLContent">
+    </textarea>
+    <br/>
+    <button (click)="compileHTMLContent()">Compile</button>
+</p>
+<p>
+    <dynamic-directive [htmlContent]="contentToCompile"></dynamic-directive>
+</p>
